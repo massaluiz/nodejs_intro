@@ -1,0 +1,23 @@
+{
+  "name": "casa_do_codigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Código",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massaluiz/nodejs_intro.git"
+  },
+  "author": "Luiz Massa de Pontes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massaluiz/nodejs_intro/issues"
+  },
+  "homepage": "https://github.com/massaluiz/nodejs_intro#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
