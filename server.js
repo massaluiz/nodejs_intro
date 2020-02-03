@@ -1,15 +1,5 @@
-const http = require('http');
+const app = require('./src/config/my-express');
 
-const server = http.createServer(function(request, response) {
-
-    let html = '';
-    if(request.url == '/') {
-        html = '<h1>Hello World</h1>';
-    } else if (request.url == '/livros') {
-        html = '<h1>Lista de Livros</h1>'
-    }
-
-    response.end(html);
+app.listen(3333, function(){
+    console.log("Servidor rodando na porta 3333");
 });
-
-server.listen(3333);
