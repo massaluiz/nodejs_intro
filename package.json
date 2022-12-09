@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/massaluiz/nodejs_intro#readme",
   "dependencies": {
-    "express": "4.16.3",
+    "express": "4.17.3",
     "marko": "4.13.4-1"
   },
   "devDependencies": {
